@@ -55,6 +55,14 @@ public class PlayerCtrl : MonoBehaviour {
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Coins"))
+        {
+            Destroy(other.gameObject);
+        }
+    }
+
    void RunAnimations()
     {
         anim.SetFloat("Movement", Mathf.Abs(move));
