@@ -7,14 +7,14 @@ public class PlayerCtrl : MonoBehaviour {
     public float playerSpeed;
     public float jumpSpeed;
 
-
     private bool isJumping;
     private float move;
     private Rigidbody2D rb;
     private Animator anim;
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -64,8 +64,9 @@ public class PlayerCtrl : MonoBehaviour {
     }
 
    void RunAnimations()
-    {
+   {
         anim.SetFloat("Movement", Mathf.Abs(move));
         anim.SetBool("isJumping", isJumping);
-    }
+   }
+    
 }
