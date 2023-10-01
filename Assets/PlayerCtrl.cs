@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class PlayerCtrl : MonoBehaviour {
 
@@ -11,7 +13,15 @@ public class PlayerCtrl : MonoBehaviour {
     private float move;
     private Rigidbody2D rb;
     private Animator anim;
+    public GameOverScreen GameOverScreen;
+    int maxPlatform = 0;
 
+
+
+    public void GameOver()
+    {
+        GameOverScreen.Setup(maxPlatform);
+    }
 
     // Use this for initialization
     void Start () {

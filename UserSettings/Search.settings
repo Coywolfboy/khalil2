@@ -11,11 +11,14 @@ scopes = {
 	"last_search.45C55C1A" = ""
 	"OpenInspectorPreview.45C55C1A" = "0"
 	"currentGroup.45C55C1A" = "scene"
-	"picker_window_position_offset.0B486DF2" = "113;409;320;550"
+	"picker_window_position_offset.0B486DF2" = "113;23;320;550"
 	"picker_search_text.0B486DF2" = ""
 	"last_search.0B486DF2" = ""
 	"OpenInspectorPreview.0B486DF2" = "0"
 	"currentGroup.0B486DF2" = null
+	"last_search.30651F47" = ""
+	"OpenInspectorPreview.30651F47" = "0"
+	"currentGroup.30651F47" = null
 }
 providers = {
 	performance = {
