@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      coy badge psd_0: 8246907078751545511
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

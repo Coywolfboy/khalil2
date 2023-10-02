@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      coywolf logo ( coloured) _0: -7383621678730834332
+      coywolf logo ( coloured) _1: 2498235695117420860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

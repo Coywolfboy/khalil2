@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MEDIUM_0006_Capa-7_0: 3425860129825627318
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
